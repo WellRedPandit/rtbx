@@ -1,3 +1,5 @@
+submitted as https://github.com/react-toolbox/react-toolbox/issues/96
+
 ## Run
 
 ```
