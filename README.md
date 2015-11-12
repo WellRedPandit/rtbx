@@ -1,4 +1,10 @@
-submitted as https://github.com/react-toolbox/react-toolbox/issues/96
+# Story
+
+Originally submitted as https://github.com/react-toolbox/react-toolbox/issues/96 because webpack had failed
+
+Fixed by https://github.com/nathanmarks
+
+# What did not work and was fixed
 
 ## Run
 

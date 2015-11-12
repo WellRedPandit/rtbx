@@ -7,11 +7,7 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        <div className='row'>
-          <div className="small-12 columns">
-            <Button label="Hello world" kind="raised" accent />
-          </div>
-        </div>
+        <Button label="Hello world" kind="raised" accent />
       </div>
     );
   }
