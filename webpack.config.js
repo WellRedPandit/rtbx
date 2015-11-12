@@ -8,8 +8,7 @@ module.exports = {
     filename: 'UnifiedSearch.js'
   },
   externals: {
-    'jquery': 'jQuery',
-    'react': 'React'
+    'jquery': 'jQuery'
   },
   resolve: {
     extensions: ['', '.scss', '.jsx', '.js', '.json']
