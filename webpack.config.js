@@ -18,13 +18,17 @@ module.exports = {
     loaders: [
       {
         test: /(\.js|\.jsx)$/,
+        exclude: /node_modules/,
         loader: 'babel',
         query: { presets: ['es2015', 'react', 'stage-0'] }
-      },
-      {
+      }, {
         test: /(\.scss|\.css)$/,
-        loaders: ['style!css!sass', 'css!sass!toolbox'],
+        loader: 'style!css!sass',
         include: path.join(__dirname, 'app')
+      }, {
+        test: /(\.scss|\.css)$/,
+        loader: 'css!sass!toolbox',
+        include: /node_modules/
       }
     ]
   }
